@@ -16,7 +16,7 @@ let arrAge = [age1,age2,age3];
 
 // console.log(typeof arr[0]);
 
-arrAge.sort((arr[0],arr[1]) => arr[1].id-arr[0].id);
+// arrAge.sort((arr[0],arr[1]) => arr[1].id-arr[0].id);
 
 for(let obj in arr){
 	if(arr[obj].age=arrAge[obj]){
