@@ -7,8 +7,6 @@ let secondLargest=0;
 largest=arrOfInts[0];
 secondLargest=arrOfInts[0];
 
-console.log(arrOfInts.length);
-
 if(arrOfInts.length>1){
     for(let i=0;i<arrOfInts.length;i++){
         sum+=arrOfInts[i];
@@ -27,9 +25,7 @@ if(arrOfInts.length>1){
         }
     }
 
-    console.log("Sum of array "+arrOfInts+" is : "+sum);
+    console.log("Sum of array "+arrOfInts+" : "+sum);
     console.log("Largest number in array : "+largest);
     console.log("Second largest number in array : "+secondLargest);
 }
-
-
