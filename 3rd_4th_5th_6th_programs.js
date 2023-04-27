@@ -1,4 +1,8 @@
 //Write a program that takes an array of integers and returns the sum of all the numbers in the array.
+//Write a program that takes an array of integers and returns the largest number in the array.
+//Write a program that takes an array of integers and returns the second largest number in the array.
+//Write a program that takes an array of integers and returns a new array containing only the even numbers from the original array.
+
 
 const arrOfInts = [1,82,3,5,23,54,78,0,81,4,23,54,76,12];
 let sum=0;

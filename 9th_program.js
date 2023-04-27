@@ -1,3 +1,4 @@
+// Write a program that takes a string and returns true if the string is a palindrome (i.e., the string is the same forwards and backwards), and false otherwise.
 
 let str = "stsa";
 let flg=true;

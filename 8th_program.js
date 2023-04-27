@@ -1,3 +1,4 @@
+// Write a program that takes an array of integers and returns a new array containing only the positive numbers from the original array.
 
 const arrOfMixedVals = [0,-1,4,54,-9,6,56];
 if(arrOfMixedVals.length>0){
