@@ -16,20 +16,3 @@ function reverseStr(tempStr){
 }
 
 console.log(revStr.trim());
-
-// function makeReverse(string) {
-//     // Reversing the string
-//     string = string.split("").reverse().join("");
-//     console.log(string);
-//     // Splitting the string by space
-//     let rev = string.split(" ");
-//     // Reversing the list of words
-//     rev = rev.reverse();
-//     console.log(rev);
-//     // Joining the words to form a new string
-//     let reversedString = rev.join(" ");
-//     return reversedString;
-//   }
-//   // Driver code
-//   let string = "hello world";
-//   console.log(makeReverse(string));

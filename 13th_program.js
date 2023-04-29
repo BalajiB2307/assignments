@@ -1,35 +1,48 @@
+// Write a program that takes a string and returns a new string with all the vowels removed.
+
+const str = "hello world";
+
+if(str.split("").length>0){
+    const arrVowels=["a","e","i","o","u"];
+
+    const arrStr=str.toLowerCase().split("");
+    let fltrdStr="";
+    
+        for(let chr of arrStr){
+            if(!arrVowels.includes(chr)){
+                fltrdStr=fltrdStr+chr;
+            }
+        }
+    
+    console.log("String without vowels: "+fltrdStr);
+}else{
+    console.log("String is null")
+}
+
+
+// ================================================================
+
+// const str = 'hello world';
+// const arrVowels=['a','e','i','o','u'];
+// const arrStr=str.toLowerCase().split('');
+// let fltrdStr='';
+// console.log(arrStr.reduce((acc,i) => ((!(arrVowels.includes(i)))? acc+i : ''), '')); // Not working fully
+// 
+
+// ================================================================
+
+// const str = 'hello world';
+// const arrVowels=['a','e','i','o','u'];
+// const arrStr=str.toLowerCase().split('');
+// for(let chr of arrStr){
+//     console.log((!(arrVowels.includes(chr)))? chr : ''); 
+// }
+
+
+// ================================================================
+
 // const str = 'hello world';
 // const noVowels = str.replace(/[aeiou]/gi, '');
 // console.log(noVowels);
 
-// ---->g tells to find all matches, not just the first.
-// ---->i tells to be case insensitive.
-// ---->what goes inside the // is the pattern.
-// ---->[] tells to match any character in a set.
-// ---->aeiou are the characters in the set.
-
-// const arrVowels=["a","e","i","o","u"];
-
-// const arrStr=str.toLowerCase().split('');
-// let fltrdStr="";
-
-
-//     for(let chr of arrStr){
-//         if(!arrVowels.includes(chr)){
-//             fltrdStr=fltrdStr+chr;
-//         }
-//     }
-// console.log(fltrdStr);
-
-
-const str = 'hello world';
-const arrVowels=['a','e','i','o','u'];
-const arrStr=str.toLowerCase().split('');
-let fltrdStr='';
-console.log(arrStr.reduce((acc,i) => ((!(arrVowels.includes(i)))? i : ''), ''));
-
-// for(let chr of arrStr){
-//     console.log((!(arrVowels.includes(chr)))? chr : '');
-// }
-
-// console.log(fltrdStr);
+// =======================================================================

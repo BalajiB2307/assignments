@@ -11,4 +11,6 @@ if(arrOfMixedVals.length>0){
 
     console.log("Array of integers: "+arrOfMixedVals);
     console.log("Array with postive val index: "+arrOfPosValPos);
+}else{
+    console.log("Array is empty");
 }

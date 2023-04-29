@@ -2,6 +2,9 @@
 
 const arr=[-23,1,43,0,-45,234,67,87,0];
 
-console.log(arr.sort((a,b)=>a-b));
-
-console.log(arr[Math.floor(arr.sort((a,b)=>a-b).length/2)]);
+if(arr.length>0){        
+    console.log("Sorted array: "+arr.sort((a,b)=>a-b));
+    console.log("Median of given array: "+arr[Math.floor(arr.sort((a,b)=>a-b).length/2)]);
+}else{
+    console.log("Array is empty");
+}

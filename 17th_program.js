@@ -5,15 +5,18 @@ let arrNP=[];
 
 let init = [2,3,5];
 
-for(let val of arr){
-    if(init.includes(val)){
-        arrNP.push(val);
-    }
-    if(val>1){
-        if(!((val%2===0) || (val%3===0) || (val%5===0))){
+if(arr.length>0){
+    for(let val of arr){
+        if(init.includes(val)){
             arrNP.push(val);
         }
-    }
+        if(val>1){
+            if(!((val%2===0) || (val%3===0) || (val%5===0))){
+                arrNP.push(val);
+            }
+        }
+    }    
+    console.log("Prime numbers in array are: "+arrNP);
+}else{
+    console.log("Array is empty");
 }
-
-console.log(arrNP);
