@@ -1,4 +1,4 @@
-//Write a program that takes a string and returns the reverse of that string.
+// Write a program that takes a string and returns the reverse of that string.
 
 let str = "hello";
 let chArrStr = str.split('');
@@ -11,5 +11,4 @@ for(let i=chArrStr.length-1;i>=0;i--){
 console.log('Original String = '+str);
 console.log('Reversed String = '+revStr);
 
-let revStrmethod=chArrStr.reverse();
-console.log('Method Reversed String = '+revStrmethod);
+console.log('Method Reversed String = '+chArrStr.reverse());
