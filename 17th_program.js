@@ -3,7 +3,7 @@
 let arr = [0,1,23,45,34,1,3,5,7,9,11,13,17,343,-23];
 let arrNP=[];
 
-let init = [2,3,5];
+let init = [2,3,5,7];
 
 if(arr.length>0){
     for(let val of arr){
@@ -11,11 +11,11 @@ if(arr.length>0){
             arrNP.push(val);
         }
         if(val>1){
-            if(!((val%2===0) || (val%3===0) || (val%5===0))){
+            if(!((val%2===0) || (val%3===0) || (val%5===0) || (val%7===0))){
                 arrNP.push(val);
             }
         }
-    }    
+    }
     console.log("Prime numbers in array are: "+arrNP);
 }else{
     console.log("Array is empty");
